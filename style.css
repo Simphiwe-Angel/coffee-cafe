@@ -1,0 +1,93 @@
+ p {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+
+p b {
+    color: #6b4f4f; /* Dark coffee color for prices */
+}
+
+h1, h2, h3 {
+    color: #4e342e; /* Dark brown for headings */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+body {
+    background-color: #fff8f0; /* Light cream background for menu feel */
+    margin: 0;
+    padding: 0 20px;
+}
+
+#menu a {
+    margin: 0 10px;
+    color: #4e342e;
+    font-weight: bold;
+}
+
+@media print {
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    img {
+        box-shadow: none;
+        border: none;
+    }
+
+    #menu {
+        display: none; /* Hide navigation on print */
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+#menu {
+    background-color: #333;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#menu a:hover {
+    color: #f4a261; /* Light coffee-brown hover effect */
+}
+
+.image-center img {
+    margin: 10px;
+    display: inline-block;
+    border: 3px solid #d4a373; /* Light brown border (coffee color) */
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.image-center img:hover {
+    transform: scale(1.05);
+}
+
+.image-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-center img {
+    margin: 10px;
+}
